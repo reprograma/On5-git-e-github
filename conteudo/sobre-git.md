@@ -1,3 +1,5 @@
+[<- Início](../README.md)
+
 # Git
 
 <img src="imgs/git/gitlogo.png" alt="Logo do git" width="20%" height="20%" />
@@ -9,6 +11,7 @@
 - [Git Bash](#git-bash)
 
 ### O que é git ?
+
 [Git](https://git-scm.com/) é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software para registrar o histórico de edições dos arquivos.
 
 Foi desenvolvido por Linus Torvalds (criador do Linux)e é um [software livre](https://pt.wikipedia.org/wiki/Software_livre).
