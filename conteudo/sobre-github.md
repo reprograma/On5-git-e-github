@@ -2,7 +2,7 @@
 
 # Github :octocat:
 
-<img src="imgs/github/cli.gif" alt="Logo do git" />
+<img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="Logo do git" />
 
 ## Índice
 - [Disponibilizar o projeto para o mundo](#disponibilizar-o-projeto-para-o-mundo)
