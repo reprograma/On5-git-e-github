@@ -63,4 +63,4 @@ No linux:
 Para praticarmos seguiremos esse [exercício](exercicios/1-exercicio-bash.md).
 
 
-[<- Sobre git](sobre-git.md) | [Sobre Github ->](sobre-github.md)
+[<- Sobre git](sobre-git.md) | [Mais sobre Git e Github ->](sobre-github.md)

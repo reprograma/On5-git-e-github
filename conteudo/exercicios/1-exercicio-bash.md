@@ -1,10 +1,13 @@
+[<- Início](../README.md)
+
 # Exercício bash
 
 ### Criando e deletando pastas e arquivos pelo terminal Git Bash
 
 Esse exercício foi copiado da [Turma Online 3](https://github.com/reprograma/On3-git-e-github/tree/master/1-exercicio-bash)
 
-Com essa apresentação: (on3-git-bash)[https://docs.google.com/presentation/d/16kA4w6qWRxqm4Z5ZlsopA1a8pKXSPaO4mKcVuUcoc7g/edit#slide=id.p] 
+
+Com essa apresentação: <a href="https://docs.google.com/presentation/d/16kA4w6qWRxqm4Z5ZlsopA1a8pKXSPaO4mKcVuUcoc7g/edit#slide=id.p" target="_blank">(on3-git-bash)</a>
 
 Você deve ter instalado o Git na sua máquina. Na Área de Trabalho (Desktop), clique com o botão direito e selecione Git Bash here
 
@@ -86,5 +89,7 @@ Executar o comando para remover:
 Verificar se a pasta foi removida:
 
 <img src="imgs/cli/removed-folder-ls.png" alt="Logo do git" />
+
+**PS:** Agora que terminamos o exercício de linha de comando, podemos voltar para fazer o [exercício de configuração de autoria no git](2-exercicio-git-config.md)
 
 [<- Sobre linha de comando](../sobre-linha-de-comando.md) | [Sobre Github ->](../sobre-github.md)
