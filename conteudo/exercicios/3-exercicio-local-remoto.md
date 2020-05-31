@@ -24,11 +24,18 @@ Enviar o seu repositório local para um site de hospedagem de repositórios (ex:
 Caso precise mudar o endereço do seu repositorio online é só dar
 `git remote --set-url origin novaURL`
 
-**OBS**: Antes de dar o `git push` sempre lembrem de dar git status para verificar que não ficou nenhum arquivo para tras, caso tenha algum `untracked files`, ou seja, que não foi adicionado na área de preparação(staging area):
+**OBS1**: Caso utilize `git status` após um commit bem sucedido aparecerá esse aviso:
+
+<img src="imgs/github/git_status_pos_commit.png" alt="Tela com o git status resultando em `Your branch is up to date with origin/proj-casa-lydia` que quer dizer que não existem arquivos novos ou atualizados para registrar mudanças" />
+
+Esse aviso não é um erro, é apenas o git informando que a sua branch está atualizada e em sincronia e que não existem arquivos novos ou atualizados para registrar mudanças, ou seja, sem necessidade de passar pelo fluxo de adição e commit :).
+
+**OBS2**: Antes de dar o `git push` sempre lembrem de dar git status para verificar que não ficou nenhum arquivo para tras, caso tenha algum `untracked files`, ou seja, que não foi adicionado na área de preparação(staging area):
 <img src="imgs/github/git_status_sem_add.png" alt="Tela com o git status resultando em untracked files, arquivos que não passaram pelo git add" />
 
-Será necessário verificar se quer adicionar esse arquivo ao commit, caso queira, é só utilizar o comando `git add .` ou `git add <arquivo desejado>` e logo em seguida `git commit -m "Mensagem desejada"`.
-ou:
+Será necessário verificar se quer adicionar esse arquivo ao commit, caso queira, é só utilizar o comando `git add .`(para adicionar todos os arquivos com modificação) ou `git add <arquivo desejado>`(para adicionar apenas o arquivo com modificação desejado) e logo em seguida `git commit -m "Mensagem desejada"`.
+
+Ou:
 caso tenha algum arquivo com `changes to be committed`, ou seja, que já estão na área de preparação(staging area), porém não receberam o commit para concluir o registro das mudanças nesses arquivos:
 
 <img src="imgs/github/git_status.png" alt="Logo do git" />
