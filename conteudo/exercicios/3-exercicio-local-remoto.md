@@ -44,8 +44,14 @@ caso tenha algum arquivo com `changes to be committed`, ou seja, que já estão 
 
 **OBS3**: Ao dar git push pode ser que ocorra esse erro:
 
+**OBS3**: Ao dar git push pode ser que ocorra esse erro:
+
 <img src="imgs/github/git_push.png" alt="Tela com o git push dando erro, aqui diz `updates were rejected because the remote contains work that you do not have locally, this is usually caused but another repository pushing to the same ref. You may want to first integrate the remote changes(git pull ...) before pushing again` que signigica que algumas modificações foram adicionadas ao nosso repositorio online antes da nossa e que para enviar a nossa devemos manter atualizada antes, dando git pull" />
 
-Esse erro signigica que algumas modificações foram adicionadas a essa branch no nosso repositorio online antes da nossa e que para enviar a nossa devemos manter atualizada antes, dando `git pull`, esse git pull pode gerar conflitos e para resolvê-los podemos consultar como no [material sobre conflitos](8-exercicio-conflito/README.md)
+Esse erro signigica que algumas modificações foram adicionadas a essa branch no nosso repositorio online antes da nossa e que para enviar a nossa devemos manter atualizada antes, dando `git pull origin <nome-da-branch>`.
+Ao fazermos git pull, ele já gera uma mensagem para o commit automaticamente, que é essa "Merge branch `'branch no git pull'` of `link do repositorio online no github` into `branch local`"
+
+esse git pull pode gerar conflitos e para resolvê-los podemos consultar como no [material sobre conflitos](8-exercicio-conflito/README.md):
+
 
 [<- Voltar para fluxo de trabalho](../sobre-fluxo-de-trabalho.md)
