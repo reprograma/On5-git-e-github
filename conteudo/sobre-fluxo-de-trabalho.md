@@ -9,6 +9,9 @@
 - [Contribuindo com um projeto](#contribuindo-com-um-projeto)
 - [Puxando mudanças do remoto](#puxando-mudanças-do-remoto)
 
+### Extra
+- [Configurações Mac](configuracoes-mac.md)
+
 -----------
 Aqui aprenderemos os passos para tornar nossos projetos versionáveis pelo git e como hospedá-los com outras pessoas pelo github.
 
@@ -45,4 +48,4 @@ Agora é sua vez, [exercício para configuração de autoria](exercicios/2-exerc
 
 
 
-[<- Sobre linha de comando](sobre-github.md) | [Exercício para entrega ->](exercicios/7-exercicio-projeto-casa/README.md)
+[<- Sobre github](sobre-github.md) | [Exercício para entrega ->](exercicios/7-exercicio-projeto-casa/README.md)

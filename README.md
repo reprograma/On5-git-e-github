@@ -26,5 +26,8 @@ Utilizaremos <a href="https://docs.google.com/presentation/d/1pCZ3V23cnopWDDDdj4
 * [Sobre fluxo de trabalho](conteudo/sobre-fluxo-de-trabalho.md)
 * [Exercício para entrega](conteudo/exercicios/7-exercicio-projeto-casa/README.md)
 
+### Extra
+* [Configurações MAC](conteudo/configuracoes-mac.md)
+
 
 [Começar ->](conteudo/sobre-git.md)
