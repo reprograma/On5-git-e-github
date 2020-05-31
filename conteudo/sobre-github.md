@@ -2,13 +2,12 @@
 
 # Github :octocat:
 
-<img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="Logo do git" />
+<img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="Mascote gato polvo do github" height="20%" width="20%"/>
 
 ## Índice
 - [Disponibilizar o projeto para o mundo](#disponibilizar-o-projeto-para-o-mundo)
 - [Github](#github)
-- [Fluxo de Trabalho](#fluxo-de-trabalho)
-- [Configurações de autoria no git](#configuração-de-autoria-no-git)
+- [Diferenaça entre git e github](#diferença-entre-git-e-github)
 
 ### Disponibilizar o projeto para o mundo
 
@@ -33,5 +32,8 @@ Resumidamente: Você trabalha na sua máquina e salva versões do seu código no
 - Ferramentas - Porque oferece funcionalidades extras ao git, como interface visual, documentação, bug tracking, feature requests, pull requests, etc.
 - Versatilidade: Você pode guardar qualquer tipo de arquivo no git/Github, não necessariamente código. Por exemplo, essa aula que estamos vendo. O Github utiliza uma linguagem chamada Markdown, que permite criar listas, links, ancôras, adicionar imagens, vídeos, gifs...
 
+#### Diferença entre git e github
+> A diferença entre git e github é que o git é só uma ferramenta para versionar projetos, enquanto o github é o site no qual você colocará esses projetos versionados. uma analogia válida seria que o git é seu pincel e tintas enquanto o github é um museu.
+- [Fonte: Ratamero](http://www.ratamero.com/blog/git-e-github-parte-1-o-que-sao-e-como-usar/)
 
 [<- Sobre linha de comando](sobre-linha-de-comando.md) | [Sobre fluxo de trabalho ->](sobre-fluxo-de-trabalho.md)

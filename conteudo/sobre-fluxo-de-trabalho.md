@@ -1,9 +1,10 @@
+[<- Início](../README.md)
 
 # Fluxo de trabalho
 
 ## Índice
 - [Configurações de autoria no git](#configurações-de-autoria-no-git)
-- [Rastreando seu projeto localmente e subindo para o github](#rastreando-seu-projeto-localmente)
+- [Rastreando seu projeto localmente e subindo para o github](#rastreando-seu-projeto-localmente-e-subindo-para-o-github)
 - [Clonando projetos](#clonando-projetos)
 - [Contribuindo com um projeto](#contribuindo-com-um-projeto)
 - [Puxando mudanças do remoto](#puxando-mudanças-do-remoto)
@@ -24,7 +25,7 @@ Agora que aprendemos sobre linha de comando no terminal, podemos utilizar a linh
     - `git config --global --unset user.name "Seu nome"`
     - `git config --global --unset user.email "seu@email.com"`
 
-Agora é sua vez, [exercício para configuração de autoria](exercicios/2-exercicio-git-config.md) 
+Agora é sua vez, [exercício para configuração de autoria](exercicios/2-exercicio-git-config.md)
 
 ### Rastreando seu projeto localmente e subindo para o github
 
