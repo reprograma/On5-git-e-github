@@ -11,6 +11,7 @@ Esse conteúdo foi feito com referência nos seguintes materiais:
  - [Turma 6 - Github](https://github.com/reprograma/github)
  - [Ramificação git](https://git-scm.com/book/pt-br/v1/Ramifica%C3%A7%C3%A3o-Branching-no-Git-O-que-%C3%A9-um-Branch)
  - [Ratamero - git e github](http://www.ratamero.com/blog/git-e-github-parte-1-o-que-sao-e-como-usar/)
+ - [Analytics Vidhya Guia - em Inglês](https://www.analyticsvidhya.com/blog/2020/05/git-github-essential-guide-beginners/)
 
 
 ---
