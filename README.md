@@ -27,6 +27,12 @@ Utilizaremos <a href="https://docs.google.com/presentation/d/1pCZ3V23cnopWDDDdj4
 * [Sobre fluxo de trabalho](conteudo/sobre-fluxo-de-trabalho.md)
 * [Exercício para entrega](conteudo/exercicios/7-exercicio-projeto-casa/README.md)
 
+## [Aula 2 - 03/06/2020]
+### Sumário
+* Dúvidas
+* [Conflitos](conteudo/exercicios/8-exercicio-conflito/README.md)
+* <a href="https://pages.github.com/" target="_blank">Github Pages</a>
+
 ### Extra
 * [Configurações MAC](conteudo/configuracoes-mac.md)
 
