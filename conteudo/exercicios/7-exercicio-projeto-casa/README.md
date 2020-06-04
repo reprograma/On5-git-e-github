@@ -6,9 +6,11 @@
 - Se você já fez `clone` do repositório dessa a aula, então não precisa fazer de novo.
 - Este exercício para casa segue o mesmo fluxo que o exercício da pasta [5-exercicio-projeto-aula](../5-exercicio-contribuição/README.md). Você pode usar a apresentação daquele exercício como referência.
 
+**Atenção**: Caso encontrem alguma dificuldade/erro verifiquem a seção de [Observações](#observações)
+
 ### Instruções
 #### Configurações básicas iniciais
-* Ter o git instalado na sua máquina	
+* Ter o git instalado na sua máquina
 * Abra o Git Bash
   ```
   git --version
@@ -29,12 +31,12 @@
 
 * Entre no Git Bash
 * Verifique se está no diretório em que deseja clonar o repositório
-	
+
   ```
   pwd
   ```
 * Clonar o repositório desta aula
-	
+
   ```
   git clone https://github.com/reprograma/On5-git-e-github.git
   ```
@@ -48,7 +50,7 @@
   cd On5-git-e-github/conteudo/exercicios/7-exercicio-projeto-casa
   ```
 * Criar uma branch nova com seu nome.
-	
+
   ```
   git checkout -b proj-casa-seuNome
   ```
@@ -78,9 +80,9 @@
         <p>Lydia Rodrigues</p>
     </div>
     ```
-    
+
     **Depois:**
-    
+
     ```
     <div class="container__aluna">
         <a href="https://github.com/cintiafumi" target="_blank">
@@ -115,6 +117,7 @@
 
 ---
 #### Deletar sua branch após seu ***pull request*** ser aceito
+* `git remote prune origin`
 * `git checkout master`: estar na branch **master** para remover sua branch
 * `git branch -d proj-casa-seuNome`: deletar sua branch **proj-casa-seuNome**
   ```
@@ -136,6 +139,40 @@
 #### Fazendo um ***fork*** pelo próprio repositório da Reprograma
 * Ir no repositório da Reprograma e clicar em ***Fork***
 <img src="./readme-assets/fork.png">
+
+
+### Observações
+
+**OBS1**: Caso utilize `git status` após um commit bem sucedido aparecerá esse aviso:
+
+<img src="../imgs/github/git_status_pos_commit.png" alt="Tela com o git status resultando em `Your branch is up to date with origin/proj-casa-lydia` que quer dizer que não existem arquivos novos ou atualizados para registrar mudanças" />
+
+Esse aviso não é um erro, é apenas o git informando que a sua branch está atualizada e em sincronia e que não existem arquivos novos ou atualizados para registrar mudanças, ou seja, sem necessidade de passar pelo fluxo de adição e commit :).
+
+**OBS2**: Antes de dar o `git push` sempre lembrem de dar git status para verificar que não ficou nenhum arquivo para tras, caso tenha algum `untracked files`, ou seja, que não foi adicionado na área de preparação(staging area):
+<img src="../imgs/github/git_status_sem_add.png" alt="Tela com o git status resultando em untracked files, arquivos que não passaram pelo git add" />
+
+Será necessário verificar se quer adicionar esse arquivo ao commit, caso queira, é só utilizar o comando `git add .`(para adicionar todos os arquivos com modificação) ou `git add <arquivo desejado>`(para adicionar apenas o arquivo com modificação desejado) e logo em seguida `git commit -m "Mensagem desejada"`.
+
+Ou:
+caso tenha algum arquivo com `changes to be committed`, ou seja, que já estão na área de preparação(staging area), porém não receberam o commit para concluir o registro das mudanças nesses arquivos:
+
+<img src="../imgs/github/git_status.png" alt="Logo do git" />
+
+é só utilizar o comando `git commit -m "Mensagem desejada"`
+
+**OBS3**: Ao dar git push pode ser que ocorra esse erro:
+
+<img src="../imgs/github/git_push.png" alt="Tela com o git push dando erro, aqui diz `updates were rejected because the remote contains work that you do not have locally, this is usually caused but another repository pushing to the same ref. You may want to first integrate the remote changes(git pull ...) before pushing again` que signigica que algumas modificações foram adicionadas ao nosso repositorio online antes da nossa e que para enviar a nossa devemos manter atualizada antes, dando git pull" />
+
+Esse erro signigica que algumas modificações foram adicionadas a essa branch no nosso repositorio online antes da nossa e que para enviar a nossa devemos manter atualizada antes, dando `git pull origin <nome-da-branch>`.
+Ao fazermos git pull já gera uma mensagem para o commit automaticamente, que é essa
+- "Merge branch `'branch no git pull'` of `link do repositorio online no github` into `branch local`" e pode ser que ele caía nessa tela:
+<img src="../imgs/github/pull-commit.png" alt="Tela com o commit" />
+
+Para sair dela é necessário digitar `:wq` ou caso abra no vscode: salvar e fechar.
+
+O git pull pode gerar conflitos e para resolvê-los podemos consultar como no [material sobre conflitos](../8-exercicio-conflito/README.md)
 
 
 [<- Voltar para fluxo de trabalho](../../sobre-fluxo-de-trabalho.md)
