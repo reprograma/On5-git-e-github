@@ -1,12 +1,16 @@
+[<- Início](../README.md)
 
 # Fluxo de trabalho
 
 ## Índice
 - [Configurações de autoria no git](#configurações-de-autoria-no-git)
-- [Rastreando seu projeto localmente e subindo para o github](#rastreando-seu-projeto-localmente)
+- [Rastreando seu projeto localmente e subindo para o github](#rastreando-seu-projeto-localmente-e-subindo-para-o-github)
 - [Clonando projetos](#clonando-projetos)
 - [Contribuindo com um projeto](#contribuindo-com-um-projeto)
 - [Puxando mudanças do remoto](#puxando-mudanças-do-remoto)
+
+### Extra
+- [Configurações Mac](configuracoes-mac.md)
 
 -----------
 Aqui aprenderemos os passos para tornar nossos projetos versionáveis pelo git e como hospedá-los com outras pessoas pelo github.
@@ -24,7 +28,7 @@ Agora que aprendemos sobre linha de comando no terminal, podemos utilizar a linh
     - `git config --global --unset user.name "Seu nome"`
     - `git config --global --unset user.email "seu@email.com"`
 
-Agora é sua vez, [exercício para configuração de autoria](exercicios/2-exercicio-git-config.md) 
+Agora é sua vez, [exercício para configuração de autoria](exercicios/2-exercicio-git-config.md)
 
 ### Rastreando seu projeto localmente e subindo para o github
 
@@ -44,4 +48,4 @@ Agora é sua vez, [exercício para configuração de autoria](exercicios/2-exerc
 
 
 
-[<- Sobre linha de comando](sobre-github.md) | [Exercício para entrega ->](exercicios/7-exercicio-projeto-casa/README.md)
+[<- Sobre github](sobre-github.md) | [Exercício para entrega ->](exercicios/7-exercicio-projeto-casa/README.md)

@@ -1,4 +1,4 @@
-[<- Início](../README.md)
+[<- Início](../../README.md)
 
 # Exercício bash
 
@@ -8,6 +8,15 @@ Esse exercício foi copiado da [Turma Online 3](https://github.com/reprograma/On
 
 
 Com essa apresentação: <a href="https://docs.google.com/presentation/d/16kA4w6qWRxqm4Z5ZlsopA1a8pKXSPaO4mKcVuUcoc7g/edit#slide=id.p" target="_blank">(on3-git-bash)</a>
+
+
+**OBS1**: Erros de digitação e formatação dos comandos no git bash podem acarretar em problemas, lembrem de verificar a grafia caso algum comando dê errado. Para relembrar os comandos é só [voltar ao material sobre comandos no terminal](../sobre-linha-de-comando.md#comandos-básicos-do-terminal)
+
+<img src="imgs/cli/erros.jpeg" alt="Logo do git" />
+
+**OBS2**: Caso o arquivo ou pasta tenha algum erro de digitação ou não exista, também ocorrerão erros. Tentem sempre verificar se estão na pasta correta utilizando `pwd` e se está tentando passar o nome correto dos arquivos e pastas, liste os itens para pegar o nome correto utilizando `ls`.
+
+### Vamos começar
 
 Você deve ter instalado o Git na sua máquina. Na Área de Trabalho (Desktop), clique com o botão direito e selecione Git Bash here
 
@@ -90,6 +99,5 @@ Verificar se a pasta foi removida:
 
 <img src="imgs/cli/removed-folder-ls.png" alt="Logo do git" />
 
-**PS:** Agora que terminamos o exercício de linha de comando, podemos voltar para fazer o [exercício de configuração de autoria no git](2-exercicio-git-config.md)
 
 [<- Sobre linha de comando](../sobre-linha-de-comando.md) | [Sobre Github ->](../sobre-github.md)
