@@ -35,6 +35,7 @@ Utilizaremos <a href="https://docs.google.com/presentation/d/1pCZ3V23cnopWDDDdj4
 
 ### Extra
 * [Configurações MAC](conteudo/configuracoes-mac.md)
-
+* <a href="https://github.com/reprograma/On3-javascript/blob/master/entrega-exercicio-casa/passo-a-passo-github.md" target="_blank">Como entregar exercício de casa - Passo a Passo - [Material On3]</a>
+* <a href="https://pt.quora.com/Qual-a-diferen%C3%A7a-entre-os-comandos-git-pull-e-git-fetch" target="_blank">Diferença entre git fetch e git pull</a>
 
 [Começar ->](conteudo/sobre-git.md)
