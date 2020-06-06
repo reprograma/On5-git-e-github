@@ -1,0 +1,23 @@
+[1mdiff --git a/conteudo/exercicios/7-exercicio-projeto-casa/index.html b/conteudo/exercicios/7-exercicio-projeto-casa/index.html[m
+[1mindex 03de4d1..fda716e 100644[m
+[1m--- a/conteudo/exercicios/7-exercicio-projeto-casa/index.html[m
+[1m+++ b/conteudo/exercicios/7-exercicio-projeto-casa/index.html[m
+[36m@@ -227,14 +227,14 @@[m
+           <p>Thais Muller Martins</p>[m
+       </div>[m
+       <div class="container__aluna">[m
+[31m-          <a href="#" target="_blank">[m
+[31m-            <img class="container__aluna-img" src="https://via.placeholder.com/500" alt="">[m
+[32m+[m[32m          <a href="https://github.com/ThamirysAbilio" target="_blank">[m
+[32m+[m[32m            <img class="container__aluna-img" src="https://avatars0.githubusercontent.com/u/61097731?s=460&u=f05d4bd941f4b47bd8db279454efc9a225af6b6c&v=4" alt="Thamirys Abilio">[m
+           </a>[m
+           <p>Thamirys Abilio Luiz da Silva</p>[m
+       </div>[m
+       <div class="container__aluna">[m
+[31m-          <a href="https://github.com/ThamirysAbilio" target="_blank">[m
+[31m-            <img class="container__aluna-img" src="https://avatars0.githubusercontent.com/u/61097731?s=460&u=f05d4bd941f4b47bd8db279454efc9a225af6b6c&v=4" alt="Thamirys Abilio">[m
+[32m+[m[32m          <a href="#" target="_blank">[m
+[32m+[m[32m            <img class="container__aluna-img" src="https://via.placeholder.com/500" alt="">[m
+           </a>[m
+           <p>Valéria Nascimento de Jesus</p>[m
+       </div>[m
