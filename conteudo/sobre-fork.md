@@ -38,6 +38,7 @@ Para iniciar o fork é só clicar nesse botão e aparecerá essa janela pergunta
 Aqui devemos selecionar o nosso usuário logado no github, logo em seguida ele já nos redirecionará para onde o repositório 'forkado' está e pode aparecer essa tela de carregamento:
 
 <img src="imgs/fork/fork-loading.png" alt="Tela para onde o github redireciona após o fork, com a tela de carregamento dizendo: 'fazendo o fork do repositorio reprograma/On5-git-e-github, isso deve levar apenas alguns segundos'" />
+fork
 
 Aí podemos ver como o repositório com fork fica diferente do repositorio original:
 - <a href="https://github.com/reprograma/On5-git-e-github" target="_blank">Repositorio original</a>
@@ -72,7 +73,10 @@ git remote -v
 
 Para praticar podemos criar uma branch:
 ```
-git checkout <img src="imgs/fork/fork-cli-clone.png" alt="Terminal mostrando o clone bem sucedido" />
+git checkout -b fork-exercicio-seuNome
+```
+<img src="imgs/fork/fork-branch.png" alt="Terminal mostrando as branchs, uma está com asterisco do lado, simbolizando em qual está" />
+
 Abra o vscode e modifique o arquivo
 index.html dentro da pasta `conteudo/exercicios/9-exercicio-fork`
 - Alterar o código colocando `seu login GitHub` na `<td>` abaixo do seu nome.
